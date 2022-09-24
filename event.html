@@ -1,0 +1,128 @@
+<!--
+<html>
+
+<body>
+<p id="demo">Select a new car</p>
+<select id="mySelect" onchange="myFunction()">
+<option value="Audi">Audi</option>
+<option value="BMW">BMW</option>
+<option value="Volvo">Volvo</option>
+</select>
+<script>
+
+function myFunction(){
+var x=document.getElementById("mySelect").value;
+document.getElementById("demo").innerHTML="You seleted "+x;
+}
+</script
+</body>
+</html>
+-->
+
+<!--
+<html>
+<body>
+
+<img onmouseover="largePic(this)" onmouseout="normPic(this)"
+src="0x0.jpg" width="320px" height="180px">
+<script>
+function largePic(x){
+x.style.width="640px";
+x.style.height="360px";
+}
+
+function normPic(x){
+x.style.width="320px";
+x.style.height="180px";
+}
+</script
+
+</body>
+</html>
+-->
+
+<html>
+<body>
+<style>
+	body {
+  background-color:Orange;
+}
+
+
+	.box1{
+		text-align: center;
+		
+		background-color:green;
+		border: 5px outset DodgerBlue;
+		
+	}
+
+	.box2{
+		text-align: center;
+		
+		background-color:blue;
+		border: 5px outset DodgerBlue;
+		
+	}
+
+	.box3{
+		text-align: center;
+		font-size: 25px;
+		background-color:red;
+		border: 5px outset DodgerBlue;
+		
+	}
+</style>
+
+<script>
+	function AlertMessage(){
+		alert("Name: Aditya Bhoumick");
+		alert("Reg. No.: 202000126");
+	}
+
+
+</script>
+</body>
+
+
+<div class="box1">
+<p> Click on the button below</p>
+<button onclick = "AlertMessage()">Click for details</button>
+<br>
+<br>
+</div>
+<br><br>
+<div class="box2">
+<br>
+<img onmouseover="largePic(this)" onmouseout="normPic(this)"
+src="aristotel.webp" width="320px" height="280px">
+<br><br><h3 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">ARISTOTLE</h3>
+<script>
+function largePic(x){
+x.style.width="640px";
+x.style.height="460px";
+}
+
+function normPic(x){
+x.style.width="320px";
+x.style.height="280px";
+}
+
+function mouseOver() {
+  document.getElementById("demo").style.fontSize="larger";
+}
+
+function mouseOut() {
+  document.getElementById("demo").style.fontSize="smaller";
+}
+</script>
+<br><br>
+</div>
+<br><br>
+
+
+<div class="box3">
+<img src = "copyright.jpg" width="20" height="20">aditya_202000126@smit.smu.edu.in
+</div>
+
+</html>
